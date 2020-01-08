@@ -1,6 +1,7 @@
 h1{
       margin-left: 90px;
       margin-top: 30px !important;
+      color: gray;
 }
 .cia-button{
       height: 37px;
@@ -13,6 +14,15 @@ h1{
       width: 90.5% !important;
 }
 .cia-submit{
-      margin-left: 160px;
+      margin-left: 120px;
       margin-top: 30px;
+}
+body{
+      background-color: black !important;
+}
+#select1{
+      color: blue;
+}
+#select2{
+      color: red;
 }
