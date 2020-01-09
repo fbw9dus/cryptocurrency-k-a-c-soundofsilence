@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+      <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -16,7 +17,7 @@
 <div class="row mt-5 cia-row">
       <input class="btn btn-primary cia-button ml-5 col-2" type="button" value="Crypto-Currency">
 <div class="form-group col-9">
-      <select id="select1" class="custom-select" required>
+      <select id="select1" class="custom-select SL2" onkeyup="selected1()" required>
         <option value="">Choose..</option>
         <option value="1">BTN</option>
         <option value="2">XRP</option>
@@ -31,8 +32,8 @@
 <div class="row mt-5 ml-1 cia-row">
       <input class="btn btn-danger cia-button ml-5 col-2" type="button" value="Currency">
 
-<div class="form-group col-9">
-      <select id="select2" class="custom-select" required>
+<div class="form-group col-9 SL2">
+      <select id="select2" class="custom-select" onkeyup="selected2()" required>
         <option value="">Choose..</option>
         <option value="1">USD</option>
         <option value="2">EUR</option>
